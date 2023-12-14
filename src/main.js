@@ -5,7 +5,7 @@ import store from './store'
 import { BootstrapVue } from 'bootstrap-vue'
 import VueSocketIO from 'vue-socket.io'
 import SocketIO from 'socket.io-client'
-
+import { SpeedInsights } from "@vercel/speed-insights/vue"
 
 const socketConnection = SocketIO('http://localhost:4201');
 

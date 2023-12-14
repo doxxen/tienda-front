@@ -7,6 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.0.2",
     "axios": "^1.6.2",
     "bootstrap-vue": "^2.23.1",
     "currency-formatter": "^1.5.9",
