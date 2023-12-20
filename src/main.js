@@ -6,7 +6,7 @@ import { BootstrapVue } from 'bootstrap-vue'
 import VueSocketIO from 'vue-socket.io'
 import SocketIO from 'socket.io-client'
 
-const socketConnection = SocketIO('tcp://0.tcp.sa.ngrok.io:15480');
+const socketConnection = SocketIO('ttcp.sa.ngrok.io:10001/tienda');
 
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
