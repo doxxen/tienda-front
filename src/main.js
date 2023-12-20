@@ -6,7 +6,7 @@ import { BootstrapVue } from 'bootstrap-vue'
 import VueSocketIO from 'vue-socket.io'
 import SocketIO from 'socket.io-client'
 
-const socketConnection = SocketIO('ttcp.sa.ngrok.io:10001/tienda');
+const socketConnection = SocketIO('mongodb+srv://zamo10:zamo10@cluster0.edkonfy.mongodb.net/?retryWrites=true&w=majority/tienda');
 
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
